@@ -1,0 +1,18 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3712
+
+        
+         This script is very simple, just beautify the default tab page,  this works on GVIM.
+         See screenshots: http://vimer.1063083.n5.nabble.com/GVIM-tabpage-beautify-td4737356.html
+
+         1.  Remove the path, only show filename.
+
+         2.  Add number to each tab page
+
+         3.  If buffer has been modified, add * to the title.
+             
+         4.  Limit the width of tab pages
+             All tab pages have the same width, except that who's name is very long.
+
+         5.  Add the line:   
+              set showtabline = 2      " Allways show the tab page 
+              to your vimrc file. Or just uncomment it from the tabpage.vim.  
